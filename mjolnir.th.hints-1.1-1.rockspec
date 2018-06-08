@@ -10,7 +10,7 @@ package = "mjolnir.th.hints"
 --    changing the module's source code.
 --
 --    Note: the version must match the version in the filename.
-version = "1.0-1"
+version = "1.1-1"
 
 -- General metadata:
 
@@ -19,7 +19,7 @@ local desc = "Mjolnir module for fancy window switching using vimium like hints.
 
 -- LuaDist source
 source = {
-  tag = "1.0-1",
+  tag = "1.1-1",
   url = "git://github.com/LuaDist-testing/mjolnir.th.hints.git"
 }
 -- Original source
