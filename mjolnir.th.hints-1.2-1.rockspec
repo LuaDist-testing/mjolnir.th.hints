@@ -1,3 +1,5 @@
+-- This file was automatically generated for the LuaDist project.
+
 -- `package` is the require-path.
 --
 --    Note: this must match the filename also.
@@ -15,13 +17,19 @@ version = "1.2-1"
 local url = "github.com/trishume/mjolnir.th.hints"
 local desc = "Mjolnir module for fancy window switching using vimium like hints. Inspired by Slate."
 
-source = {url = "git://" .. url}
-description = {
-  summary = desc,
-  detailed = desc,
-  homepage = "https://" .. url,
-  license = "MIT",
+-- LuaDist source
+source = {
+  tag = "1.2-1",
+  url = "git://github.com/LuaDist-testing/mjolnir.th.hints.git"
 }
+-- Original source
+-- source = {url = "git://" .. url}
+-- description = {
+--   summary = desc,
+--   detailed = desc,
+--   homepage = "https://" .. url,
+--   license = "MIT",
+-- }
 
 -- Dependencies:
 
